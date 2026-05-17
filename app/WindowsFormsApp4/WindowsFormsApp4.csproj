@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9D236D2-5A1F-4F08-8494-03186E2DB075}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp4</RootNamespace>
+    <AssemblyName>WindowsFormsApp4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="f01_Ship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f01_Ship.Designer.cs">
+      <DependentUpon>f01_Ship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f01_Ship01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f01_Ship01.Designer.cs">
+      <DependentUpon>f01_Ship01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f02_Line.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f02_Line.Designer.cs">
+      <DependentUpon>f02_Line.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f02_Line01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f02_Line01.Designer.cs">
+      <DependentUpon>f02_Line01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f03_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f03_Client.Designer.cs">
+      <DependentUpon>f03_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f03_Client01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f03_Client01.Designer.cs">
+      <DependentUpon>f03_Client01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f04_City.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f04_City.Designer.cs">
+      <DependentUpon>f04_City.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f04_City01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f04_City01.Designer.cs">
+      <DependentUpon>f04_City01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f05_Period.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f05_Period.Designer.cs">
+      <DependentUpon>f05_Period.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f05_Period01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f05_Period01.Designer.cs">
+      <DependentUpon>f05_Period01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f06_Flight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f06_Flight.Designer.cs">
+      <DependentUpon>f06_Flight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f06_Flight01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f06_Flight01.Designer.cs">
+      <DependentUpon>f06_Flight01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f07_Tickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f07_Tickets.Designer.cs">
+      <DependentUpon>f07_Tickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f07_Tickets01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f07_Tickets01.Designer.cs">
+      <DependentUpon>f07_Tickets01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f08_Сonsignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f08_Сonsignment.Designer.cs">
+      <DependentUpon>f08_Сonsignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f09_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f09_Report.Designer.cs">
+      <DependentUpon>f09_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="f01_Ship.resx">
+      <DependentUpon>f01_Ship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f01_Ship01.resx">
+      <DependentUpon>f01_Ship01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f02_Line.resx">
+      <DependentUpon>f02_Line.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f02_Line01.resx">
+      <DependentUpon>f02_Line01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f03_Client.resx">
+      <DependentUpon>f03_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f03_Client01.resx">
+      <DependentUpon>f03_Client01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f04_City.resx">
+      <DependentUpon>f04_City.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f04_City01.resx">
+      <DependentUpon>f04_City01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f05_Period.resx">
+      <DependentUpon>f05_Period.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f05_Period01.resx">
+      <DependentUpon>f05_Period01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f06_Flight.resx">
+      <DependentUpon>f06_Flight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f06_Flight01.resx">
+      <DependentUpon>f06_Flight01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f07_Tickets.resx">
+      <DependentUpon>f07_Tickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f07_Tickets01.resx">
+      <DependentUpon>f07_Tickets01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f08_Сonsignment.resx">
+      <DependentUpon>f08_Сonsignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f09_Report.resx">
+      <DependentUpon>f09_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
