@@ -11,6 +11,8 @@
 <img width="711" height="525" alt="image" src="https://github.com/user-attachments/assets/00c56196-c096-430b-b06a-46de7707936e" />
 <h5>Главная форма</h5>
 <img width="473" height="211" alt="image" src="https://github.com/user-attachments/assets/eb5d75c2-2c8f-4a94-b937-50e157cce61c" />
+<h5>Работа с клиентским справочником</h5>
+<img width="920" height="532" alt="image" src="https://github.com/user-attachments/assets/a57f8700-402b-4fe2-8b95-cd4ab7bd7d2e" />
 <h5>Возможность распечатать билет через экспорт в Excel документ</h5>
 <img width="920" height="532" alt="image" src="https://github.com/user-attachments/assets/33a65716-df81-4cee-abdb-4381b9b6c3e1" />
 
